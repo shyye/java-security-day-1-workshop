@@ -57,9 +57,9 @@ dependencies {
 	testImplementation 'org.springframework.security:spring-security-test'
 }
 
-tasks.named('bootBuildImage') {
-	builder = 'paketobuildpacks/builder-jammy-base:latest'
-}
+//tasks.named('bootBuildImage') {
+//	builder = 'paketobuildpacks/builder-jammy-base:latest'
+//}
 
 tasks.named('test') {
 	useJUnitPlatform()
